@@ -8,6 +8,8 @@
 
 核心表现：从 JDK 26 切换到 JDK 28 EA 后，向量化实现的 `gc.alloc.rate.norm` 从接近 0 B/op 飙升至数百甚至数千 B/op，GC count 从 ≈0 变为上百次。
 
+该问题目前仅在 x86_64 环境（AMD Ryzen 9 7900X）上复现，在 MacBook aarch64（Apple Silicon）环境下未观察到类似现象。
+
 ## 运行环境
 
 - **OS**: Ubuntu 26.04.1 LTS (WSL2, Kernel 6.18.33.2-microsoft-standard-WSL2)
