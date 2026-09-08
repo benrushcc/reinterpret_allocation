@@ -1,0 +1,10 @@
+META-INF/CompilerHints
+com/example/jmh_generated/Utf8ValidationBench_jmhType.class
+com/example/jmh_generated/Utf8ValidationBench_jmhType_B3.class
+com/example/jmh_generated/Utf8ValidationBench_vecValidateUtfMixed_jmhTest.class
+com/example/jmh_generated/Utf8ValidationBench_scalarUtfMixed_jmhTest.class
+META-INF/BenchmarkList
+com/example/jmh_generated/Utf8ValidationBench_jmhType_B2.class
+com/example/Utf8ValidationBench.class
+com/example/jmh_generated/Utf8ValidationBench_jmhType_B1.class
+com/example/Utf8Validator.class
